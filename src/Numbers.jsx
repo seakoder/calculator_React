@@ -4,10 +4,10 @@ export default function Numbers({setOldHolder, oldholder}) {
 
     {
         return (
-            <div className="flex flex-row flex-wrap w-4/12 absolute left-48 top-[28%]">
+            <div className="flex flex-row flex-wrap w-4/12 absolute left-[12%] top-[28%]">
                 {numArr.map(a =>
-                    <div key={a.id} className="border-2 border-white-500 m-2">
-                        <button onClick={()=>{console.log(a.num), setOldHolder(oldholder + a.num)}} className="text-8xl font-bold bg-green-500 m-1 text-white text-center rounded w-24 hover:bg-green-200 hover:text-black">
+                    <div key={a.id} className="  border-2 border-white-500 m-2">
+                        <button onClick={()=>{console.log(a.num), setOldHolder(oldholder + a.num)}} className=" Number text-8xl font-bold bg-green-500 m-1 text-white text-center rounded w-24 hover:bg-green-200 hover:text-black">
                             {a.num}
                         </button>
                     </div>

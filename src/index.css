@@ -5,3 +5,27 @@
 body{
     background-color: rgb(47, 45, 45);
 }
+
+@media only screen and (max-width: 700px) {
+    .flex {
+        min-width: 90%;
+        margin-top: 20%;
+        margin-left: -7vw;
+    }
+    
+.logix {
+    left: 54.8%;
+    top: 85%;
+}
+.Result{
+    top: 100%;
+    max-width: 70px;
+    min-height: 70px;
+    font-size: 40px;
+}
+.Number {
+    max-width: 70px;
+    min-height: 70px;
+    font-size: 40px;
+}
+}

@@ -81,7 +81,7 @@ function App() {
     return (
       < >
       <h1 className="text-white text-3xl font-bold text-center mt-12 underline decoration-green-500">Simple ReactJS Calculator</h1>
-        <div className="absolute top-36 left-48">
+        <div className="absolute top-[20%] left-[12%]">
           <button onClick={adding} className="text-3xl font-bold bg-blue-900 p-1 text-white text-center rounded w-[107px] align-middle hover:bg-blue-500 border-2 border-white-500 m-2">+</button>
           <button onClick={subtracting} className="text-3xl font-bold bg-blue-900 p-1 text-white text-center rounded w-[107px] align-middle hover:bg-blue-500 border-2 border-white-500 m-2">-</button>
           <button onClick={multiplying} className="text-3xl font-bold bg-blue-900 p-1 text-white text-center rounded w-[107px] align-middle hover:bg-blue-500 border-2 border-white-500 m-2">*</button>
@@ -90,7 +90,7 @@ function App() {
         </div>
         <Numbers setOldHolder={setOldHolder} oldholder={oldholder} />
        
-        <button onClick={logix} className=" absolute left-[570px] top-[465px] text-8xl font-bold bg-red-600 m-1 text-white text-center rounded w-24 hover:bg-white hover:text-black">=</button>
+        <button onClick={logix} className="logix absolute left-[36.6%] top-[62.5%] text-8xl font-bold bg-red-600 m-1 text-white text-center rounded w-24 hover:bg-white hover:text-black">=</button>
         <Result result={result} />
         {/* {resultIsTrue && <div className="text-4xl font-bold text-indigo-900">
             Result is {result}
